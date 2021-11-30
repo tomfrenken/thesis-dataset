@@ -1,0 +1,68 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "matrix",
+    "result": [
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container": "app-chart",
+          "cpu": "total",
+          "endpoint": "https-metrics",
+          "id": "/kubepods/burstable/pod52423a40-451a-42d0-90d5-bd445c31a264/f44662f9c2e25d82f175c344f7c59ed48085c9cbfbc1c28dcd9ef9af6215b617",
+          "image": "docker-cloudsdk.docker.repositories.sap.ondemand.com/k8s-e2e-app@sha256:73a4402999d57f248c495903aaed10324c84d62bf61c4b180a4e3f2fa6c1a712",
+          "instance": "10.250.0.77:10250",
+          "job": "kubelet",
+          "metrics_path": "/metrics/cadvisor",
+          "name": "k8s_app-chart_e2e-app-app-chart-6c75ccf68-mt6l9_default_52423a40-451a-42d0-90d5-bd445c31a264_0",
+          "namespace": "default",
+          "node": "shoot--sdktests--cloud-sdk-js-worker-ck5a7-z1-7747f-pfp66",
+          "pod": "e2e-app-app-chart-6c75ccf68-mt6l9",
+          "service": "prometheus-kube-prometheus-kubelet"
+        },
+        "values": [
+          [1636937821.99, "488.692654435"],
+          [1636937859.862, "494.998119236"],
+          [1636937891.143, "499.87120637"],
+          [1636937920.194, "505.117722587"],
+          [1636937936.448, "508.404871075"],
+          [1636937968.666, "514.005363517"],
+          [1636938005.273, "517.854537184"],
+          [1636938040.347, "523.423383238"],
+          [1636938068.92, "528.17791293"],
+          [1636938100.081, "535.300911478"]
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container": "app-chart",
+          "cpu": "total",
+          "endpoint": "https-metrics",
+          "id": "/kubepods/burstable/pod56a6c49a-3758-4f01-b3d8-c28794488a6c/b18ff43a22916b938b30a9fbf4dbd0fc81402636c71551775f916cdbbe2c442a",
+          "image": "docker-cloudsdk.docker.repositories.sap.ondemand.com/k8s-e2e-app@sha256:73a4402999d57f248c495903aaed10324c84d62bf61c4b180a4e3f2fa6c1a712",
+          "instance": "10.250.0.77:10250",
+          "job": "kubelet",
+          "metrics_path": "/metrics/cadvisor",
+          "name": "k8s_app-chart_e2e-app-app-chart-6c75ccf68-mxgpn_default_56a6c49a-3758-4f01-b3d8-c28794488a6c_0",
+          "namespace": "default",
+          "node": "shoot--sdktests--cloud-sdk-js-worker-ck5a7-z1-7747f-pfp66",
+          "pod": "e2e-app-app-chart-6c75ccf68-mxgpn",
+          "service": "prometheus-kube-prometheus-kubelet"
+        },
+        "values": [
+          [1636937815.895, "553.656430794"],
+          [1636937860.293, "561.274460137"],
+          [1636937888.902, "566.649872643"],
+          [1636937905.205, "569.948067683"],
+          [1636937950.27, "576.952913114"],
+          [1636937967.764, "578.506433517"],
+          [1636938009.192, "586.800016861"],
+          [1636938041.493, "593.217414672"],
+          [1636938060.844, "597.709180023"],
+          [1636938095.474, "605.066428814"]
+        ]
+      }
+    ]
+  }
+}
